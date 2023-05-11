@@ -1,0 +1,39 @@
+
+
+
+
+.box{
+    display: flex;
+    flex-direction: row;
+    color: #c2c2c2;
+    margin: 10px 20px;
+}
+
+.compravenda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.compra, .venda{
+    display: flex;
+    flex-direction: row;
+}
+
+.moeda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 2rem;
+}
+
+.ask{
+    color:#c90202;
+}
+
+.bid{
+    color: #00FF61;
+}
